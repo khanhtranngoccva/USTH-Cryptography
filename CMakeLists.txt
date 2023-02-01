@@ -3,4 +3,5 @@ project(USTH_Cryptography)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(USTH_Cryptography main.cpp)
+add_executable(ex1 main.cpp)
+add_executable(ex2 fastExp.cpp)
